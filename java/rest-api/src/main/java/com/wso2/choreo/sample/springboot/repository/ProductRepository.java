@@ -11,9 +11,9 @@ public class ProductRepository {
     private Map<Integer, Product> map = new ConcurrentHashMap<>();
 
     public ProductRepository() {
-        map.put(1, new Product(1, "product 1", 10, 1000));
-        map.put(2, new Product(2, "product 2", 20, 2000));
-        map.put(3, new Product(3, "product 3", 30, 3000));
+        map.put(1, new Product(1, "Janaka", 10, 1000));
+        map.put(2, new Product(2, "Rasika", 20, 2000));
+        map.put(3, new Product(3, "Manjula", 30, 3000));
     }
 
     public Map<Integer, Product> getAllProducts() {
